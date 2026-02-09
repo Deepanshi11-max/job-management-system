@@ -1,0 +1,33 @@
+/* global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* whole website */
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f5f9ff;
+}
+
+/* common container */
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* common buttons */
+button {
+  font-family: inherit;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+/* smooth look */
+input,
+button {
+  outline: none;
+}
+
+

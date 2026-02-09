@@ -1,0 +1,42 @@
+.hero {
+  height: 420px;
+  background: linear-gradient(135deg, #e0ecff, #f5f9ff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 44px;
+  margin-bottom: 12px;
+}
+
+.hero p {
+  color: #555;
+  margin-bottom: 30px;
+  max-width: 650px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.btn-primary {
+  padding: 12px 30px;
+  background: #2563eb;
+  color: white;
+  border-radius: 8px;
+  border: none;
+}
+
+.btn-outline {
+  padding: 12px 30px;
+  border: 1px solid #2563eb;
+  background: transparent;
+  color: #2563eb;
+  border-radius: 8px;
+}
+

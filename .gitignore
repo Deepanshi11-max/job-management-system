@@ -1,0 +1,20 @@
+# Node
+node_modules/
+jobapp-frontend/node_modules/
+
+# Java / Spring Boot
+target/
+*.class
+
+# IDE
+.idea/
+*.iml
+
+# Env
+.env
+
+# Build
+build/
+dist/
+
+
